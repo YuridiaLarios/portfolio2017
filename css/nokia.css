@@ -1,0 +1,1006 @@
+/**********************************
+GENERAL
+***********************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.bold-h1{
+  color: white;
+  font-weight: bold;
+  font-family:Arial;
+}
+
+.bold-grey-h1{
+  font-weight: bolder;
+  color:grey;
+  font-size: 3.1em;
+  margin: 0;
+}
+
+.bold-white-h1{
+  font-weight: bolder;
+  color:white;
+  font-size: 3.1em;
+}
+
+.light-h1{
+  font-size: 3.5em;
+  font-weight:lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.light-yellow-h1{
+  font-size: 3.5em;
+  font-weight:lighter;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#e6bd2e;
+  margin: 0;
+}
+
+.small-white-print{
+  font-size: 1.3em;
+  color:white;
+}
+
+/**********************************
+NAVBAR
+***********************************/
+.topnav {
+  overflow: hidden;
+  background-color: #0e172b;
+  height: 72px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  margin: auto 60px;
+  margin-top: 10px;
+  color: #e6b936;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  transition:all 0.15s ease-in-out;
+}
+
+.topnav a:hover {
+  color: #47a9aa;
+}
+
+.topnav .active {
+  color: #47a9aa;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav .logo {
+  margin-top: 0px;
+}
+
+.topnav .social {
+  border-radius: 50%;
+  width: 75%;
+}
+
+
+/**********************************
+ABOUT SECTION
+***********************************/
+.about-section{
+  padding: 70px;
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
+  min-height: 665px;
+}
+
+.about-info {
+  width: 40%;
+  color: white;
+  margin-top: 5%;
+}
+
+
+.about-info p {
+  font-size: 1.3em;
+}
+
+
+.button {
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 2%;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 5px #0f2038;
+  float: left;
+}
+
+.yellow {
+  border: 2px solid #e6bd2e;
+}
+.yellow-text {
+  color:#e6bd2e;
+  text-decoration: none;
+}
+
+.aqua{
+  color: #47a9aa;
+  border: 2px solid #47a9aa;
+}
+.aqua-text {
+  color:#47a9aa;
+  text-decoration: none;
+}
+.yellow:hover, .aqua:hover{
+  opacity: .7;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.phone-showcase {
+  position: absolute;
+  width: 28%;
+  top: 15%;
+  right: 0%;
+  z-index: 2;
+}
+
+.phone-facts {
+  position: absolute;
+  top: 50%;
+  right: 34%;
+  width: 14%;
+}
+
+.phone-facts li{
+  list-style-type: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #838a8c;
+  text-align: right;
+}
+
+.small-print {
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+.facts-icons {
+  position: absolute;
+  right: -55px;
+  font-size: 1.5em;
+  color:#e6bd2e;
+}
+
+/**********************************
+FEATURES SECTION
+***********************************/
+.features-section{
+  padding: 70px;
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(-140deg, #f7f7f7 45%, #2c3c4d 46%);
+  min-height: 665px;
+}
+
+.right {
+  width:50%;
+  height: 100px;
+  display:block;
+  float: right;
+  margin: 0 7% 0;
+  text-align: right;
+ }
+
+.left {
+  width:50%;
+  height: 100px;
+  display:block;
+  float: left;
+  margin: 0 auto;
+}
+
+.nokia-screen-img{
+  display: inline;
+  width: 45%;
+  border-radius: 30%;
+}
+
+.nokia-games-img{
+  width: 35%;
+  border-radius: 50%;
+}
+.circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.medium-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+
+.small-circle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+
+/**********************************
+VIDEO SECTION
+***********************************/
+
+.video-section{
+  padding: 70px;
+  background-color: #f7f7f7;
+  background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #2c3c4d 46%);
+  min-height: 665px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  margin: 2% auto;
+}
+
+.small-screen{
+  display:none;
+}
+
+.medium-screen{
+  display: none;
+}
+
+/**********************************
+MEDIA QUERY SCREEN: 1016px to 1130px
+***********************************/
+@media screen and (max-width: 1370px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+    .topnav a {
+      margin: auto 30px;
+      margin-top: 10px;
+      padding: 14px 16px;
+    }
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+
+  .about-info {
+    width: 52%;
+  }
+
+
+  .about-info p {
+    font-size: 1.3em;
+  }
+
+  .button {
+    width: 31%;
+    padding: 10px;
+  }
+
+}
+
+/**********************************
+MEDIA QUERY SCREEN: 680px to 1007px
+***********************************/
+@media screen and (max-width: 1007px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+
+  .topnav a {
+    margin: auto 10px;
+    margin-top: 10px;
+    padding: 14px 16px;
+  }
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+
+  .about-info {
+    width: 52%;
+  }
+
+  .about-section{
+    padding: 30px;
+    background-image: -webkit-linear-gradient(170deg, #f7f7f7 45.5%, #2c3c4d 46.5%);
+    min-height: 600px;
+  }
+
+  .about-info {
+    width: 51%;
+    color: white;
+  }
+
+
+  .about-info p {
+    font-size: 1.16em;
+  }
+
+
+  .button {
+    width: 30%;
+  }
+
+  .phone-showcase {
+    width: 25%;
+    top: 20%;
+    right: 0%;
+    z-index: 2;
+  }
+
+  .phone-facts {
+    position: absolute;
+    top: 25%;
+    right: 23%;
+    width: 20%;
+  }
+
+  .phone-facts li{
+    font-size: 1.3em;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+
+  .facts-icons {
+    position: absolute;
+    left: 2px;
+    font-size: 1.2em;
+    color:#e6bd2e;
+  }
+
+  .main-cellphone{
+    width: 95%;
+  }
+  /**********************************
+  FEATURES SECTION
+  ***********************************/
+  .features-section{
+    padding: 30px;
+    background-image: -webkit-linear-gradient(-170deg, #f7f7f7 45.5%, #2c3c4d 46.5%);
+    min-height: 600px;
+  }
+
+  .right {
+    margin: 0;
+   }
+
+  .left {
+    display:block;
+    float: left;
+    margin: 0 auto;
+  }
+
+  .nokia-screen-img{
+    display: inline;
+    width: 60%;
+    border-radius: 30%;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nokia-games-img{
+    width: 44%;
+  }
+
+  .small-grey-h1, .small-yellow-h1 {
+    font-size: 2.5em;
+  }
+
+  .small-bold-h1 {
+    font-size: 1.16em;
+  }
+
+  /**********************************
+  VIDEO SECTION
+  ***********************************/
+
+  .video-section{
+    padding: 30px;
+    background-color: #f7f7f7;
+    background-image: -webkit-linear-gradient(140deg, 45.5%, #2c3c4d 46.5%);
+    min-height: 650px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    margin: 2% auto;
+  }
+
+  .large-screen{
+    display: none;
+  }
+
+  .medium-screen{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: below 777px navbar
+***********************************/
+@media screen and (max-width: 777px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+  .topnav {
+    height: auto;
+  }
+
+  .topnav a:not(:first-child) {display: none;}
+
+  .topnav a.icon {
+  float: right;
+  display: block;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3%;
+  }
+
+  .topnav.responsive a {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    float: none;
+    text-align: center;
+  }
+
+  .topnav.responsive a:hover:not(:first-child) {
+    background-color: black;
+  }
+
+  .topnav .social {
+    border-radius: 50%;
+    width: 8%;
+  }
+}
+
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: 500px to 680px
+***********************************/
+@media screen and (max-width: 680px) {
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+  .about-section{
+    padding: 25px;
+    background-image: -webkit-linear-gradient(90deg, #2c3c4d 0%, #2c3c4d 100%);
+    min-height: 900px;
+  }
+
+  .about-info {
+    width: 100%;
+    color: white;
+  }
+
+
+  .about-info p {
+    font-size: 1em;
+    margin-top: 60%;
+    text-align: justify;
+  }
+
+
+  .button {
+    width: 30%;
+    margin-left: 8%;
+  }
+
+  .phone-showcase {
+    width: 40%;
+    top: 100px;
+
+  }
+
+  .phone-facts {
+    position: absolute;
+    top: 320px;
+    right: 55%;
+    width: 50%;
+  }
+
+  .phone-facts li{
+    font-size: 1.2em;
+    text-align: right;
+    margin-bottom: 30px;
+  }
+
+  .facts-icons {
+    position: absolute;
+    left: 2px;
+    font-size: 1.1em;
+    color:#e6bd2e;
+  }
+
+  .main-cellphone{
+    width: 95%;
+  }
+  h1{
+    margin-top: 100px;
+  }
+  .bold-h1{
+    font-size: .7em;
+  }
+  /**********************************
+  FEATURES SECTION
+  ***********************************/
+  .features-section{
+    padding: 10px;
+    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 39.5%, #2c3c4d 40.5%);
+    min-height: 1100px;
+  }
+
+  .right {
+    position: absolute;
+   }
+
+  .left {
+    display:block;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-left: 16%;
+    margin-top: 500px;
+  }
+
+  .nokia-screen-img{
+    position: absolute;
+    top: 0px;
+    width: 74%;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nokia-games-img{
+    width: 34%;
+  }
+
+  .small-grey-h1, .small-yellow-h1 {
+    font-size: 2em;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .small-bold-h1 {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+
+  /**********************************
+  VIDEO SECTION
+  ***********************************/
+
+  .video-section{
+    padding: 30px;
+    background-color: #f7f7f7;
+    background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #f7f7f7 46%);
+    min-height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .bold-white-h1, .small-grey-h1, .small-white-print {
+    color: grey;
+  }
+
+  .white-color{
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid grey;
+    margin: 2% auto;
+  }
+
+  .small-screen{
+    display:block;
+    margin: 0 auto;
+  }
+
+  .medium-screen{
+    display:none;
+  }
+
+  .large-screen{
+    display:none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: 375px to 500px
+***********************************/
+@media screen and (max-width: 500px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+  .about-section{
+    padding: 10px;
+    background-image: -webkit-linear-gradient(90deg, #2c3c4d 0%, #2c3c4d 100%);
+    min-height: 900px;
+  }
+
+  .about-info {
+    width: 100%;
+    color: white;
+  }
+
+
+  .about-info p {
+    font-size: 1em;
+    margin-top: 80%;
+    text-align: justify;
+  }
+
+
+  .button {
+    width: 30%;
+    margin-left: 8%;
+  }
+
+  .phone-showcase {
+    width: 40%;
+    top: 250px;
+
+  }
+
+  .phone-facts {
+    position: absolute;
+    top: 320px;
+    right: 40%;
+    width: 50%;
+  }
+
+  .phone-facts li{
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .facts-icons {
+    position: absolute;
+    left: 2px;
+    font-size: 1.1em;
+    color:#e6bd2e;
+  }
+
+  .main-cellphone{
+    width: 95%;
+  }
+  h1{
+    margin-top: 100px;
+  }
+  .bold-h1{
+    font-size: .7em;
+  }
+  /**********************************
+  FEATURES SECTION
+  ***********************************/
+  .features-section{
+    padding: 10px;
+    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 39.5%, #2c3c4d 40.5%);
+    min-height: 900px;
+  }
+
+  .right {
+    position: absolute;
+    margin: 0;
+   }
+
+  .left {
+    display:block;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-left: 4%;
+    margin-top: 370px;
+  }
+
+  .nokia-screen-img{
+    position: absolute;
+    top: 0px;
+    width: 80%;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nokia-games-img{
+    width: 44%;
+  }
+
+  .small-grey-h1, .small-yellow-h1 {
+    font-size: 2em;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .small-bold-h1 {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+
+  /**********************************
+  VIDEO SECTION
+  ***********************************/
+
+  .video-section{
+    padding: 30px;
+    background-color: #f7f7f7;
+    background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #f7f7f7 46%);
+    min-height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .bold-white-h1, .small-grey-h1, .small-white-print {
+    color: grey;
+  }
+
+  .white-color{
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid grey;
+    margin: 2% auto;
+  }
+
+  .small-screen{
+    display:block;
+    margin: 0 auto;
+  }
+
+  .medium-screen{
+    display:none;
+  }
+
+  .large-screen{
+    display:none;
+  }
+
+}
+
+
+
+
+
+
+/**********************************
+MEDIA QUERY SCREEN: 300px to 374px
+***********************************/
+@media screen and (max-width: 374px) {
+  /**********************************
+  NAVBAR
+  ***********************************/
+
+
+
+  /**********************************
+  ABOUT SECTION
+  ***********************************/
+  .about-section{
+    padding: 2px;
+  }
+
+  .about-info {
+    width: 100%;
+    color: white;
+  }
+
+
+  .about-info p {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 80%;
+    text-align: justify;
+  }
+
+
+  .button {
+    width: 35%;
+    margin-left: 4%;
+  }
+
+
+  .phone-facts {
+    position: absolute;
+    top: 300px;
+    right: 45%;
+    width: 50%;
+  }
+
+  .main-cellphone{
+    width: 95%;
+  }
+  h1{
+    margin-top: 100px;
+  }
+  .bold-h1{
+    font-size: .7em;
+  }
+  /**********************************
+  FEATURES SECTION
+  ***********************************/
+  .features-section{
+    padding: 5px;
+    background-image: -webkit-linear-gradient(-90deg, #f7f7f7 39.5%, #2c3c4d 40.5%);
+    min-height: 900px;
+  }
+
+  .right {
+    position: absolute;
+    margin: 0;
+    padding: 0px;
+    margin-top: 40px;
+   }
+
+  .left {
+    display:block;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-left: .2%;
+    margin-top: 370px;
+  }
+
+  .nokia-screen-img{
+    position: absolute;
+    top: 0px;
+    width: 83%;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nokia-games-img{
+    width: 42%;
+  }
+
+  .small-grey-h1, .small-yellow-h1 {
+    font-size: 1.6em;
+    margin: 10px;
+    margin-bottom: 0px;
+  }
+
+  .small-bold-h1 {
+    margin-top: 30px;
+    font-size: .9em;
+  }
+
+  /**********************************
+  VIDEO SECTION
+  ***********************************/
+
+  .video-section{
+    padding: 5px;
+    background-color: #f7f7f7;
+    background-image: -webkit-linear-gradient(140deg, #f7f7f7 45%, #f7f7f7 46%);
+    min-height: 550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .bold-white-h1, .small-grey-h1, .small-white-print {
+    color: grey;
+  }
+
+  .white-color{
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid grey;
+    margin: 2% auto;
+  }
+
+  .small-screen{
+    display:block;
+    margin: 0 auto;
+  }
+
+  .medium-screen{
+    display:none;
+  }
+
+  .large-screen{
+    display:none;
+  }
+
+}
+
+/*Ipad pro: needed different measures for phone facts. */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)
+{
+  .phone-facts {
+    top: 26%;
+  }
+}
